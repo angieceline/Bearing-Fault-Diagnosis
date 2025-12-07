@@ -1,1 +1,7 @@
+Bearings are vital components in rotating machinery, and their failure can cause major operational interruptions. This study investigates machine learning methods for detecting and classifying bearing faults using time-domain statistical features. Datasets from CWRU and Paderborn are used to build and evaluate several models, including SVM, KNN, Decision Trees, and a 1D-CNN.
 
+The experiments show that the SVM classifier delivers the highest accuracy among the traditional machine learning approaches, effectively separating different fault categories based on engineered features. Alongside this, 1D-CNN models trained directly on raw vibration signal segments perform competitively without requiring preprocessing or handcrafted feature extraction. Their ability to automatically learn discriminative patterns from the data allows them to capture subtle fault signatures.
+
+The comparison between traditional algorithms and deep learning reveals that both approaches have complementary strengths. Feature-based models offer interpretability and efficient training, while CNN models provide strong performance by leveraging raw data. When combined, these methods contribute to improved fault detection accuracy, reliability, and robustness across varying operating conditions.
+
+Overall, the study highlights the effectiveness of integrating classical machine learning with modern deep learning techniques for bearing fault diagnosis, demonstrating that hybrid approaches can significantly enhance predictive performance in rotating machinery applications.
